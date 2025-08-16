@@ -1,8 +1,9 @@
 import './App.css'
+import List from './list'
 // import Cart from './cart'
 // import Button from './Button/button'
 // import Student from './student.jsx'
-import Login from './login'
+// import Login from './login'
 
 function App() {
   return (
@@ -14,7 +15,9 @@ function App() {
    name="Ali" age= {20} isStudent = {true}
    /> */}
 
-   <Login isLoggedIn = {false} />
+   {/* <Login isLoggedIn = {true} userName = "Saleh"/> */}
+
+   <List />
 
     </>
   )
