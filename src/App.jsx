@@ -1,16 +1,21 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+// import Cart from './cart'
+// import Button from './Button/button'
+// import Student from './student.jsx'
+import Login from './login'
 
 function App() {
   return (
     <>
-    <div className='cart'>
-      <img src="http://picsum.photos/200" alt="" />
-      <h1>Ahmad</h1>
-      <p>ahmad is a good boy</p>
-    </div>
+   {/* <Student
+   name="Mahmood" age= {78} isStudent = {false}
+   />
+   <Student
+   name="Ali" age= {20} isStudent = {true}
+   /> */}
+
+   <Login isLoggedIn = {false} />
+
     </>
   )
 }
